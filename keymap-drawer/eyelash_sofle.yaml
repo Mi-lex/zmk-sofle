@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - '}'
-  - Ctl+$$mdi:keyboard-tab$$
+  - $$mdi:keyboard-tab$$
   - A
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - D
