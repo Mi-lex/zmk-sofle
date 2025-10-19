@@ -138,11 +138,11 @@
 
         Symbols {
             bindings = <
-&trans      &trans  &trans  &trans        &trans                &trans    &mmv MOVE_UP     &trans     &trans                 &trans        &trans      &trans            &trans
-&trans      &trans  &trans  &kp KP_EQUAL  &trans                &trans    &mmv MOVE_DOWN   &kp PG_UP  &kp UNDERSCORE         &trans        &trans      &kp KP_PLUS       &trans
-&trans      &trans  &trans  &kp LBKT      &kp LEFT_PARENTHESIS  &trans    &mmv MOVE_LEFT   &trans     &kp RIGHT_PARENTHESIS  &kp RBKT      &trans      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &trans  &trans  &trans        &trans                &trans    &mmv MOVE_RIGHT  &trans     &kp KP_MINUS           &kp KP_COMMA  &kp KP_DOT  &trans            &trans
-&kp C_MUTE  &trans  &trans  &trans        &trans                &trans    &mkp LCLK        &trans     &trans                 &trans        &trans      &trans
+&trans      &trans  &trans  &trans            &trans                &trans            &mmv MOVE_UP     &trans           &trans                 &trans             &trans      &trans            &trans
+&trans      &trans  &trans  &kp KP_EQUAL      &trans                &trans            &mmv MOVE_DOWN   &kp PG_UP        &kp UNDERSCORE         &trans             &trans      &kp KP_PLUS       &trans
+&trans      &trans  &trans  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE    &mmv MOVE_LEFT   &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &trans      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &trans  &trans  &trans            &trans                &trans            &mmv MOVE_RIGHT  &trans           &kp KP_MINUS           &kp KP_COMMA       &kp KP_DOT  &trans            &trans
+&kp C_MUTE  &trans  &trans  &trans            &trans                &trans            &mkp LCLK        &trans           &trans                 &trans             &trans      &trans
             >;
 
             display-name = "layer1";
