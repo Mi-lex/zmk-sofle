@@ -137,7 +137,7 @@
 &kp TILDE     &kp F1        &kp F2        &kp F3       &kp F4  &kp F5         &msc SCRL_UP     &kp F6                            &kp F7      &kp F8        &kp F9     &kp F10       &trans
 &bt BT_SEL 0  &kp F11       &kp F12       &trans       &trans  &trans         &msc SCRL_DOWN   &trans                            &kp K_UNDO  &trans        &trans     &kp UNDER     &kp PLUS
 &bt BT_SEL 1  &out OUT_USB  &out OUT_BLE  &trans       &trans  &kp PAGE_UP    &msc SCRL_LEFT   &HMShiftR RIGHT_SHIFT LEFT_ARROW  &kp DOWN    &kp UP_ARROW  &kp RIGHT  &kp LBRC      &kp RBRC
-&bt BT_SEL 2  &sys_reset    &trans        &bootloader  &trans  &kp K_BACK     &msc SCRL_RIGHT  &trans                            &trans      &kp KP_COMMA  &kp DOT    &kp QUESTION  &trans
+&trans        &sys_reset    &trans        &bootloader  &trans  &kp K_BACK     &msc SCRL_RIGHT  &trans                            &trans      &kp KP_COMMA  &kp DOT    &kp QUESTION  &trans
 &trans        &trans        &trans        &trans       &trans  &trans         &mkp RCLK        &kp SPACE                         &trans      &trans        &trans     &trans
             >;
 
