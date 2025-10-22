@@ -81,6 +81,12 @@
         flavor = "tap-preferred";
     };
 
+    swapper: swapper {
+      compatible = "zmk,behavior-tri-state";
+      #binding-cells = <0>;
+      bindings = <&kp A>, <&kp B>, <&kt C>;
+    };
+
     behaviors {
     };
 

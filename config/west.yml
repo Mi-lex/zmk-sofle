@@ -8,6 +8,8 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
   #  - name: gpeye
   #    url-base: https://github.com/GPeye
+    - name: dhruvinsh
+      url-base: https://github.com/dhruvinsh
   projects:
    # - name: mario-peripheral-animation
    #   remote: gpeye
@@ -19,5 +21,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-tri-state
+      remote: dhruvinsh
+      revision: main
   self:
     path: boards
