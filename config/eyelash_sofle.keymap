@@ -98,6 +98,13 @@
         bindings = <&kp PAGE_DOWN>, <&kp PAGE_UP>;
     };
 
+    CAPS_WORDS: CAPS_WORDS {
+        compatible = "zmk,behavior-caps-word";
+        label = "CAPS_WORDS";
+        #binding-cells = <0>;
+        continue-list = <UNDERSCORE SPACE BACKSPACE>;
+    };
+
     behaviors {
     };
 
@@ -122,7 +129,7 @@
         };
 
         ToggleCaps {
-            bindings = <&none>;
+            bindings = <&CAPS_WORDS>;
             key-positions = <39 51>;
             layers = <0>;
         };
@@ -141,19 +148,19 @@
 
         LeftParenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <34 35>;
+            key-positions = <47 48>;
             layers = <0>;
         };
 
         RightParenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <35 36>;
+            key-positions = <48 49>;
             layers = <0>;
         };
 
         Enter {
             bindings = <&kp ENTER>;
-            key-positions = <47 48>;
+            key-positions = <34 35>;
             layers = <0>;
         };
 
@@ -177,6 +184,12 @@
         Underscore {
             bindings = <&kp UNDER>;
             key-positions = <46 47>;
+            layers = <0>;
+        };
+
+        DeleteWord {
+            bindings = <&kp LA(BACKSPACE)>;
+            key-positions = <21 22 23>;
             layers = <0>;
         };
     };
