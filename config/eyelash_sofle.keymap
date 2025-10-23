@@ -127,14 +127,14 @@
             layers = <0>;
         };
 
-        LeftBracket {
-            bindings = <&kp LEFT_BRACKET>;
+        Backspace {
+            bindings = <&kp BACKSPACE>;
             key-positions = <21 22>;
             layers = <0>;
         };
 
-        RightBracket {
-            bindings = <&kp LEFT_BRACKET>;
+        Delete {
+            bindings = <&kp DELETE>;
             key-positions = <22 23>;
             layers = <0>;
         };
@@ -151,15 +151,9 @@
             layers = <0>;
         };
 
-        LeftBrace {
-            bindings = <&kp LS(LEFT_BRACKET)>;
+        Enter {
+            bindings = <&kp LS(ENTER)>;
             key-positions = <47 48>;
-            layers = <0>;
-        };
-
-        RightBrace {
-            bindings = <&kp LS(RIGHT_BRACKET)>;
-            key-positions = <48 49>;
             layers = <0>;
         };
 
@@ -201,11 +195,11 @@
 
         Base {
             bindings = <
-&kp ESC          &kp N1     &kp N2                  &kp N3                 &kp N4            &kp N5         &mmv MOVE_UP     &kp N6       &kp N7         &kp N8                  &kp N9                   &kp N0         &kp LEFT_BRACKET
-&kp TAB          &kp Q      &kp W                   &kp E                  &kp R             &kp T          &mmv MOVE_DOWN   &kp Y        &kp U          &kp I                   &kp O                    &kp P          &kp RIGHT_BRACKET
-&kp LEFT_SHIFT   &kp A      &HMShiftL LEFT_SHIFT S  &HMOptionL LEFT_ALT D  &kp F             &kp G          &mmv MOVE_LEFT   &kp H        &kp J          &HMOptionR RIGHT_ALT K  &HMShiftR RIGHT_SHIFT L  &kp SEMI       &kp APOS
-&mt LCTRL GRAVE  &kp Z      &kp X                   &kp C                  &kp V             &kp B          &mmv MOVE_RIGHT  &kp N        &kp M          &kp COMMA               &kp DOT                  &kp FSLH       &kp BACKSLASH
-&kp C_MUTE       &kp GRAVE  &kp LEFT_ALT            &mo 4                  &mt LEFT_GUI ESC  &lt 1 SPACE    &mkp LCLK        &lt 1 SPACE  &kp RIGHT_GUI  &kp ENTER               &lt 3 LEFT_BRACKET       &kp BACKSPACE
+&kp ESC          &kp N1     &kp N2                  &kp N3                 &kp N4            &kp N5         &mmv MOVE_UP     &kp N6       &kp N7         &kp N8                  &kp N9                   &kp N0             &kp LEFT_BRACKET
+&kp TAB          &kp Q      &kp W                   &kp E                  &kp R             &kp T          &mmv MOVE_DOWN   &kp Y        &kp U          &kp I                   &kp O                    &kp P              &kp RIGHT_BRACKET
+&kp LEFT_SHIFT   &kp A      &HMShiftL LEFT_SHIFT S  &HMOptionL LEFT_ALT D  &kp F             &kp G          &mmv MOVE_LEFT   &kp H        &kp J          &HMOptionR RIGHT_ALT K  &HMShiftR RIGHT_SHIFT L  &kp SEMI           &kp APOS
+&mt LCTRL GRAVE  &kp Z      &kp X                   &kp C                  &kp V             &kp B          &mmv MOVE_RIGHT  &kp N        &kp M          &kp COMMA               &kp DOT                  &kp FSLH           &kp BACKSLASH
+&kp C_MUTE       &kp GRAVE  &kp LEFT_ALT            &mo 4                  &mt LEFT_GUI ESC  &lt 1 SPACE    &mkp LCLK        &lt 1 SPACE  &kp RIGHT_GUI  &kp ENTER               &lt 3 LEFT_BRACKET       &kp RIGHT_BRACKET
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
