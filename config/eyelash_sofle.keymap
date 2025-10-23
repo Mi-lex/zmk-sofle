@@ -208,11 +208,11 @@
 
         Navigation {
             bindings = <
-&trans  &kp F1   &kp F2     &kp F3  &kp F4  &kp F5         &msc SCRL_UP     &kp F6      &kp F7      &kp F8        &kp F9      &kp F10       &trans
-&trans  &kp F11  &kp F12    &trans  &trans  &trans         &msc SCRL_DOWN   &kp K_COPY  &kp K_UNDO  &kp INSERT    &kp K_BACK  &kp K_PASTE   &kp PLUS
-&trans  &trans   &trans     &trans  &trans  &VimNormalG    &msc SCRL_LEFT   &kp LEFT    &kp DOWN    &kp UP_ARROW  &kp RIGHT   &kp LBRC      &kp RBRC
-&trans  &trans   &kp K_CUT  &trans  &trans  &kp K_BACK     &msc SCRL_RIGHT  &kp HOME    &trans      &trans        &kp END     &kp QUESTION  &trans
-&trans  &trans   &trans     &trans  &trans  &trans         &mkp RCLK        &kp SPACE   &trans      &trans        &trans      &trans
+&trans  &kp F1   &kp F2             &kp F3             &kp F4  &kp F5         &msc SCRL_UP     &kp F6      &kp F7      &kp F8        &kp F9                    &kp F10           &trans
+&trans  &kp F11  &kp LC(LA(LCTRL))  &trans             &trans  &trans         &msc SCRL_DOWN   &kp K_COPY  &kp K_UNDO  &kp INSERT    &kp K_BACK                &kp K_PASTE       &kp PLUS
+&trans  &trans   &trans             &kp LA(LG(LCTRL))  &trans  &VimNormalG    &msc SCRL_LEFT   &kp LEFT    &kp DOWN    &kp UP_ARROW  &kp RIGHT                 &kp LBRC          &kp RBRC
+&trans  &trans   &kp K_CUT          &trans             &trans  &kp K_BACK     &msc SCRL_RIGHT  &kp HOME    &trans      &trans        &kp END                   &kp QUESTION      &trans
+&trans  &trans   &trans             &trans             &trans  &trans         &mkp RCLK        &kp SPACE   &trans      &trans        &kp LS(LG(LEFT_BRACKET))  &kp RS(RG(RBKT))
             >;
 
             display-name = "layer2";
@@ -221,11 +221,11 @@
 
         Symbols {
             bindings = <
-&trans      &trans  &trans  &trans        &trans                &trans            &mmv MOVE_UP     &trans           &trans                 &trans      &trans         &trans            &trans
-&trans      &trans  &trans  &kp KP_EQUAL  &trans                &trans            &mmv MOVE_DOWN   &kp PG_UP        &kp UNDERSCORE         &trans      &trans         &kp KP_PLUS       &trans
-&trans      &trans  &trans  &kp LBKT      &kp LEFT_PARENTHESIS  &kp LEFT_BRACE    &mmv MOVE_LEFT   &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RBKT    &trans         &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &trans  &trans  &trans        &trans                &trans            &mmv MOVE_RIGHT  &trans           &kp KP_MINUS           &kp KP_DOT  &kp LS(SLASH)  &trans            &trans
-&kp C_MUTE  &trans  &trans  &trans        &trans                &trans            &mkp LCLK        &trans           &trans                 &trans      &trans         &trans
+&trans      &trans  &trans  &trans        &trans                &trans            &mmv MOVE_UP     &trans           &trans                 &trans      &trans                    &trans            &trans
+&trans      &trans  &trans  &kp KP_EQUAL  &trans                &trans            &mmv MOVE_DOWN   &kp PG_UP        &kp UNDERSCORE         &trans      &trans                    &kp KP_PLUS       &trans
+&trans      &trans  &trans  &kp LBKT      &kp LEFT_PARENTHESIS  &kp LEFT_BRACE    &mmv MOVE_LEFT   &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RBKT    &trans                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &trans  &trans  &trans        &trans                &trans            &mmv MOVE_RIGHT  &trans           &kp KP_MINUS           &kp KP_DOT  &kp LS(SLASH)             &trans            &trans
+&kp C_MUTE  &trans  &trans  &trans        &trans                &trans            &mkp LCLK        &trans           &trans                 &trans      &kp LS(LG(LEFT_BRACKET))  &trans
             >;
 
             display-name = "layer1";
