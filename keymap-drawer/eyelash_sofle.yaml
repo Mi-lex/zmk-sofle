@@ -350,7 +350,7 @@ combos:
   k: )
   l: [LAYER0]
 - p: [47, 48]
-  k: {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [LAYER0]
 - p: [34, 21]
   k: +
