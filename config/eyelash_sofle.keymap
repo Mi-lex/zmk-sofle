@@ -152,7 +152,7 @@
         };
 
         Enter {
-            bindings = <&kp LS(ENTER)>;
+            bindings = <&kp ENTER>;
             key-positions = <47 48>;
             layers = <0>;
         };
