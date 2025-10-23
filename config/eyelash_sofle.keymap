@@ -208,11 +208,11 @@
 
         Navigation {
             bindings = <
-&trans  &kp F1   &kp F2            &kp F3            &kp F4  &kp F5         &msc SCRL_UP     &kp F6      &kp F7      &kp F8        &kp F9                    &kp F10           &trans
-&trans  &kp F11  &kp LC(LEFT_ALT)  &trans            &trans  &trans         &msc SCRL_DOWN   &kp K_COPY  &kp K_UNDO  &kp INSERT    &kp K_BACK                &kp K_PASTE       &kp PLUS
-&trans  &trans   &trans            &kp LC(LA(LGUI))  &trans  &VimNormalG    &msc SCRL_LEFT   &kp LEFT    &kp DOWN    &kp UP_ARROW  &kp RIGHT                 &kp LBRC          &kp RBRC
-&trans  &trans   &kp K_CUT         &trans            &trans  &kp K_BACK     &msc SCRL_RIGHT  &kp HOME    &trans      &trans        &kp END                   &kp QUESTION      &trans
-&trans  &trans   &trans            &trans            &trans  &trans         &mkp RCLK        &kp SPACE   &trans      &trans        &kp LS(LG(LEFT_BRACKET))  &kp RS(RG(RBKT))
+&trans  &kp F1   &kp F2     &kp F3  &kp F4  &kp F5         &msc SCRL_UP     &kp F6      &kp F7      &kp F8        &kp F9                    &kp F10           &trans
+&trans  &kp F11  &trans     &trans  &trans  &trans         &msc SCRL_DOWN   &kp K_COPY  &kp K_UNDO  &kp INSERT    &kp K_BACK                &kp K_PASTE       &kp PLUS
+&trans  &trans   &trans     &trans  &trans  &VimNormalG    &msc SCRL_LEFT   &kp LEFT    &kp DOWN    &kp UP_ARROW  &kp RIGHT                 &kp LBRC          &kp RBRC
+&trans  &trans   &kp K_CUT  &trans  &trans  &kp K_BACK     &msc SCRL_RIGHT  &kp HOME    &trans      &trans        &kp END                   &kp QUESTION      &trans
+&trans  &trans   &trans     &trans  &trans  &trans         &mkp RCLK        &kp SPACE   &trans      &trans        &kp LS(LG(LEFT_BRACKET))  &kp RS(RG(RBKT))
             >;
 
             display-name = "layer2";
