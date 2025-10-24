@@ -106,6 +106,23 @@
         continue-list = <UNDERSCORE SPACE BACKSPACE>;
     };
 
+    NUM_WORD: NUM_WORD {
+        compatible = "zmk,behavior-caps-word";
+        label = "NUM_WORD";
+        #binding-cells = <0>;
+        continue-list = <NUMBER_1 NUMBER_2 NUMBER_3 NUMBER_4 NUMBER_5 NUMBER_6 NUMBER_7 NUMBER_8 NUMBER_9 NUMBER_0 MINUS PLUS BACKSPACE SPACE DOT COMMA>;
+        mods = <(MOD_LSFT)>;
+    };
+
+    AmpersandOnDouble: AmpersandOnDouble {
+        compatible = "zmk,behavior-tap-dance";
+        label = "AMPERSANDONDOUBLE";
+        #binding-cells = <0>;
+        bindings = <&kp U>, <&kp AMPERSAND>;
+
+        tapping-term-ms = <150>;
+    };
+
     behaviors {
     };
 
@@ -199,6 +216,37 @@
             key-positions = <28 36>;
             layers = <3>;
         };
+
+        NumWordsStart {
+            bindings = <&NUM_WORD>;
+            key-positions = <46 21>;
+        };
+
+        Exclamation {
+            bindings = <&kp EXCL>;
+            key-positions = <14 15>;
+            layers = <0>;
+        };
+
+        AtSighn {
+            bindings = <&kp AT>;
+            key-positions = <15 16>;
+        };
+
+        Hash {
+            bindings = <&kp HASH>;
+            key-positions = <16 17>;
+        };
+
+        Dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <17 18>;
+        };
+
+        Percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <18 31>;
+        };
     };
 
     macros {
@@ -215,11 +263,11 @@
 
         Base {
             bindings = <
-&kp ESC          &kp N1     &kp N2                  &kp N3                 &kp N4            &kp N5         &mmv MOVE_UP     &kp N6       &kp N7         &kp N8                  &kp N9                   &kp N0             &kp LEFT_BRACKET
-&kp TAB          &kp Q      &kp W                   &kp E                  &kp R             &kp T          &mmv MOVE_DOWN   &kp Y        &kp U          &kp I                   &kp O                    &kp P              &kp RIGHT_BRACKET
-&kp LEFT_SHIFT   &kp A      &HMShiftL LEFT_SHIFT S  &HMOptionL LEFT_ALT D  &kp F             &kp G          &mmv MOVE_LEFT   &kp H        &kp J          &HMOptionR RIGHT_ALT K  &HMShiftR RIGHT_SHIFT L  &kp SEMI           &kp APOS
-&mt LCTRL GRAVE  &kp Z      &kp X                   &kp C                  &kp V             &kp B          &mmv MOVE_RIGHT  &kp N        &kp M          &kp COMMA               &kp DOT                  &kp FSLH           &kp BACKSLASH
-&kp C_MUTE       &kp GRAVE  &kp LEFT_ALT            &mo 4                  &mt LEFT_GUI ESC  &lt 1 SPACE    &mkp LCLK        &lt 1 SPACE  &kp RIGHT_GUI  &kp ENTER               &lt 3 LEFT_BRACKET       &kp RIGHT_BRACKET
+&kp ESC          &kp N1     &kp N2                  &kp N3                 &kp N4            &kp N5         &mmv MOVE_UP     &kp N6       &kp N7              &kp N8                  &kp N9                   &kp N0             &kp LEFT_BRACKET
+&kp TAB          &kp Q      &kp W                   &kp E                  &kp R             &kp T          &mmv MOVE_DOWN   &kp Y        &AmpersandOnDouble  &kp I                   &kp O                    &kp P              &kp RIGHT_BRACKET
+&kp LEFT_SHIFT   &kp A      &HMShiftL LEFT_SHIFT S  &HMOptionL LEFT_ALT D  &kp F             &kp G          &mmv MOVE_LEFT   &kp H        &kp J               &HMOptionR RIGHT_ALT K  &HMShiftR RIGHT_SHIFT L  &kp SEMI           &kp APOS
+&mt LCTRL GRAVE  &kp Z      &kp X                   &kp C                  &kp V             &kp B          &mmv MOVE_RIGHT  &kp N        &kp M               &kp COMMA               &kp DOT                  &kp FSLH           &kp BACKSLASH
+&kp C_MUTE       &kp GRAVE  &kp LEFT_ALT            &mo 4                  &mt LEFT_GUI ESC  &lt 1 SPACE    &mkp LCLK        &lt 1 SPACE  &kp RIGHT_GUI       &kp ENTER               &lt 3 LEFT_BRACKET       &kp RIGHT_BRACKET
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
