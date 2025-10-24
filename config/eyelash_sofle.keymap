@@ -118,9 +118,9 @@
         compatible = "zmk,behavior-tap-dance";
         label = "AMPERSANDONDOUBLE";
         #binding-cells = <0>;
-        bindings = <&kp U>, <&kp AMPERSAND>;
+        bindings = <&kp U>, <&kp AMPS>;
 
-        tapping-term-ms = <150>;
+        tapping-term-ms = <200>;
     };
 
     behaviors {
