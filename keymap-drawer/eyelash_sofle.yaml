@@ -106,15 +106,15 @@ layers:
   - '{'
   - '}'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - SCROLL DOWN
   - CUT
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - BACK
   - $$mdi:pan-right$$
   - HOME
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - SCROLL DOWN
+  - SCROLL UP
   - END
   - '?'
   - {t: '$$mdi:transfer$$', type: trans}
