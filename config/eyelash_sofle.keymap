@@ -86,7 +86,7 @@
         tapping-term-ms = <280>;
         hold-trigger-key-positions = <0 1 2 3 4 5 18 17 16 15 14 13 26 27 28 29 30 42 43 54 55 44 31 41 53 40 39 56 57 52 60>;
         require-prior-idle-ms = <150>;
-        quick-tap-ms = <150>;
+        quick-tap-ms = <175>;
         hold-trigger-on-release;
         flavor = "balanced";
     };
@@ -246,6 +246,11 @@
         Percent {
             bindings = <&kp PERCENT>;
             key-positions = <18 31>;
+        };
+
+        Asterisk {
+            bindings = <&kp ASTERISK>;
+            key-positions = <22 23>;
         };
     };
 
