@@ -67,20 +67,20 @@ layers:
   - {t: ']', s: '}'}
   layer2:
   - {t: '$$mdi:transfer$$', type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+Gui+7
   - $$mdi:pan-up$$
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - F11
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -276,9 +276,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F7
+  - F8
+  - F9
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -289,9 +289,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F4
+  - F5
+  - F6
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -305,7 +305,7 @@ layers:
   - F1
   - F2
   - F3
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
   - '1'
@@ -339,10 +339,10 @@ combos:
   l: [LAYER0]
 - p: [21, 22]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [LAYER0]
+  l: [LAYER0, layer4]
 - p: [22, 23]
   k: $$mdi:backspace-reverse-outline$$
-  l: [LAYER0]
+  l: [LAYER0, layer4]
 - p: [47, 48]
   k: (
   l: [LAYER0]
@@ -354,10 +354,10 @@ combos:
   l: [LAYER0]
 - p: [34, 21]
   k: +
-  l: [LAYER0]
+  l: [LAYER0, layer4]
 - p: [34, 33]
   k: {t: '-', s: _}
-  l: [LAYER0]
+  l: [LAYER0, layer4]
 - p: [20, 21]
   k: ^
 - p: [46, 47]
@@ -365,7 +365,7 @@ combos:
   l: [LAYER0]
 - p: [21, 22, 23]
   k: {t: 'Alt+$$mdi:backspace$$', type: backspace}
-  l: [LAYER0]
+  l: [LAYER0, layer4]
 - p: [28, 36]
   k: SLEEP
   l: [layer3]
@@ -382,5 +382,9 @@ combos:
   k: $
 - p: [18, 31]
   k: '%'
-- p: [22, 23]
+- p: [21, 47]
   k: '*'
+  l: [LAYER0, layer4]
+- p: [41, 42]
+  k: F12
+  l: [layer4]
