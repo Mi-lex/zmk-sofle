@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '[', s: '{'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -54,8 +54,8 @@ layers:
   - {t: /, s: '?'}
   - {t: \, s: '|'}
   - $$mdi:volume-off$$
-  - {t: '`', s: '~'}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - layer4
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-space$$', h: layer2}
@@ -367,7 +367,7 @@ combos:
   k: {t: 'Alt+$$mdi:backspace$$', type: backspace}
   l: [LAYER0, layer4]
 - p: [28, 36]
-  k: SLEEP
+  k: SLEEP MODE
   l: [layer3]
 - p: [46, 21]
   k: '&NUM_WORD'
@@ -388,3 +388,6 @@ combos:
 - p: [41, 42]
   k: F12
   l: [layer4]
+- p: [33, 21]
+  k: {t: '=', s: +}
+  l: [LAYER0, layer4]
