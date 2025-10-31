@@ -294,11 +294,11 @@
 
         Navigation {
             bindings = <
-&trans  &trans             &trans           &trans  &trans  &kp LS(LG(NUMBER_7))    &msc SCRL_UP     &trans      &trans                &trans              &trans                    &trans            &trans
-&trans  &trans             &trans           &trans  &trans  &trans                  &msc SCRL_DOWN   &kp K_COPY  &kp K_UNDO            &kp INSERT          &kp K_BACK                &kp K_PASTE       &trans
-&trans  &trans             &trans           &trans  &trans  &VimNormalG             &msc SCRL_LEFT   &kp LEFT    &kp DOWN              &kp UP_ARROW        &kp RIGHT                 &trans            &trans
-&trans  &kp K_SCROLL_DOWN  &kp K_CUT        &trans  &trans  &kp K_BACK              &msc SCRL_RIGHT  &kp HOME    &kp C_AC_SCROLL_DOWN  &kp C_AC_SCROLL_UP  &kp END                   &trans            &trans
-&trans  &kp LEFT_ARROW     &kp RIGHT_ARROW  &trans  &trans  &trans                  &mkp RCLK        &kp SPACE   &trans                &trans              &kp LS(LG(LEFT_BRACKET))  &kp RS(RG(RBKT))
+&trans  &trans             &trans           &trans  &trans  &kp LS(LG(NUMBER_7))    &msc SCRL_UP     &trans      &trans          &trans        &trans                    &trans            &trans
+&trans  &trans             &trans           &trans  &trans  &trans                  &msc SCRL_DOWN   &kp K_COPY  &kp K_UNDO      &kp INSERT    &kp K_BACK                &kp K_PASTE       &trans
+&trans  &trans             &trans           &trans  &trans  &VimNormalG             &msc SCRL_LEFT   &kp LEFT    &kp DOWN        &kp UP_ARROW  &kp RIGHT                 &trans            &trans
+&trans  &kp K_SCROLL_DOWN  &kp K_CUT        &trans  &trans  &kp K_BACK              &msc SCRL_RIGHT  &kp HOME    &msc SCRL_DOWN  &msc SCRL_UP  &kp END                   &trans            &trans
+&trans  &kp LEFT_ARROW     &kp RIGHT_ARROW  &trans  &trans  &trans                  &mkp RCLK        &kp SPACE   &trans          &trans        &kp LS(LG(LEFT_BRACKET))  &kp RS(RG(RBKT))
             >;
 
             display-name = "layer2";
