@@ -113,8 +113,8 @@ layers:
   - BACK
   - $$mdi:pan-right$$
   - HOME
-  - AC SCROLL DOWN
-  - AC SCROLL UP
+  - $$mdi:pan-down$$
+  - $$mdi:pan-up$$
   - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
