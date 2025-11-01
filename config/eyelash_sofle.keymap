@@ -179,6 +179,7 @@
         Enter {
             bindings = <&kp ENTER>;
             key-positions = <34 35>;
+            require-prior-idle-ms = <100>;
         };
 
         Plus {
