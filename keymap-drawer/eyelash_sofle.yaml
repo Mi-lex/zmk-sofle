@@ -357,9 +357,6 @@ combos:
   l: [LAYER0, layer4]
 - p: [20, 21]
   k: ^
-- p: [46, 47]
-  k: _
-  l: [LAYER0]
 - p: [21, 22, 23]
   k: {t: 'Alt+$$mdi:backspace$$', type: backspace}
   l: [LAYER0, layer4]
@@ -387,4 +384,10 @@ combos:
   l: [layer4]
 - p: [33, 21]
   k: {t: '=', s: +}
+  l: [LAYER0, layer4]
+- p: [46, 47]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
+  l: [LAYER0, layer4]
+- p: [27, 31]
+  k: {t: 'Ctl+$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   l: [LAYER0, layer4]
