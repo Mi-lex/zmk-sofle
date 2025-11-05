@@ -378,7 +378,7 @@ combos:
 - p: [33, 21]
   k: {t: '=', s: +}
   l: [LAYER0, layer4]
-- p: [34, 35]
+- p: [34, 35, 36]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [LAYER0, layer4]
 - p: [27, 31]
