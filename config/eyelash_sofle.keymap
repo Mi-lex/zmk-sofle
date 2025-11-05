@@ -286,7 +286,7 @@
 &kp TAB          &kp Q   &kp W                   &kp E                  &kp R                &kp T          &mmv MOVE_DOWN   &kp Y        &AmpersandOnDouble  &kp I                   &kp O                    &kp P              &kp RIGHT_BRACKET
 &kp LEFT_SHIFT   &kp A   &HMShiftL LEFT_SHIFT S  &HMOptionL LEFT_ALT D  &kp F                &kp G          &mmv MOVE_LEFT   &kp H        &kp J               &HMOptionR RIGHT_ALT K  &HMShiftR RIGHT_SHIFT L  &kp SEMI           &kp APOS
 &mt LCTRL GRAVE  &kp Z   &kp X                   &kp C                  &kp V                &kp B          &mmv MOVE_RIGHT  &kp N        &kp M               &kp COMMA               &kp DOT                  &kp FSLH           &kp BACKSLASH
-&kp C_MUTE       &trans  &trans                  &lt 4 ESCAPE           &mt LEFT_GUI ESCAPE  &lt 1 SPACE    &mkp LCLK        &lt 2 SPACE  &kp RIGHT_GUI       &kp ENTER               &kp LEFT_BRACKET         &kp RIGHT_BRACKET
+&kp C_MUTE       &trans  &trans                  &lt 4 ESCAPE           &mt LEFT_GUI ESCAPE  &lt 1 SPACE    &mkp LCLK        &lt 2 SPACE  &kp RIGHT_GUI       &trans                  &kp LEFT_BRACKET         &kp RIGHT_BRACKET
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -321,7 +321,7 @@
 
         System {
             bindings = <
-&bl BL_TOG  &trans  &trans  &trans           &rgb_ug RGB_BRI  &trans             &trans  &trans      &trans        &trans        &trans      &trans  &trans
+&bl BL_TOG  &trans  &trans  &trans           &rgb_ug RGB_BRI  &trans             &trans  &trans      &trans        &trans        &trans      &trans  &kp C_SLEEP_MODE
 &trans      &trans  &trans  &rgb_ug RGB_EFR  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF    &trans  &trans      &trans        &trans        &trans      &trans  &trans
 &trans      &trans  &trans  &trans           &rgb_ug RGB_BRD  &trans             &trans  &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &trans  &trans
 &trans      &trans  &trans  &trans           &trans           &trans             &trans  &trans      &trans        &trans        &trans      &trans  &trans
