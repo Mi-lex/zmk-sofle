@@ -255,7 +255,7 @@
 
         Enter {
             bindings = <&kp ENTER>;
-            key-positions = <34 35>;
+            key-positions = <34 35 36>;
             require-prior-idle-ms = <150>;
             layers = <0 4>;
         };
