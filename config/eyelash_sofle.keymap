@@ -129,11 +129,6 @@
     combos {
         compatible = "zmk,combos";
 
-        softoff {
-            bindings = <&soft_off>;
-            key-positions = <14 28 40>;
-        };
-
         Pause {
             bindings = <&kp C_PLAY_PAUSE>;
             key-positions = <34 35>;
@@ -162,14 +157,14 @@
 
         LeftParenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <47 48>;
+            key-positions = <33 46>;
             layers = <0>;
             require-prior-idle-ms = <150>;
         };
 
         RightParenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <48 49>;
+            key-positions = <34 47>;
             layers = <0>;
             require-prior-idle-ms = <125>;
         };
@@ -217,7 +212,7 @@
         Hash {
             bindings = <&kp HASH>;
             key-positions = <16 17>;
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <200>;
         };
 
         Dollar {
@@ -254,8 +249,8 @@
 
         Enter {
             bindings = <&kp ENTER>;
-            key-positions = <34 35 36>;
-            require-prior-idle-ms = <150>;
+            key-positions = <48 47>;
+            require-prior-idle-ms = <200>;
             layers = <0 4>;
         };
 
@@ -269,11 +264,6 @@
         F12_2 {
             bindings = <&kp F12>;
             key-positions = <1 2>;
-        };
-
-        Enter2 {
-            bindings = <&kp ENTER>;
-            key-positions = <46 47>;
         };
     };
 
