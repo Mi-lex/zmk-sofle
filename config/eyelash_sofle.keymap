@@ -320,7 +320,7 @@
         System {
             bindings = <
 &bl BL_TOG  &trans  &trans  &trans           &rgb_ug RGB_BRI  &trans             &trans  &trans      &trans        &trans        &trans      &trans  &kp C_SLEEP_MODE
-&trans      &trans  &trans  &rgb_ug RGB_EFR  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF    &trans  &trans      &trans        &trans        &trans      &trans  &trans
+&trans      &trans  &trans  &rgb_ug RGB_EFR  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF    &trans  &trans      &trans        &trans        &trans      &trans  &kp C_POWER
 &trans      &trans  &trans  &trans           &rgb_ug RGB_BRD  &trans             &trans  &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &trans  &trans
 &trans      &trans  &trans  &trans           &trans           &trans             &trans  &trans      &trans        &trans        &trans      &trans  &trans
 &trans      &trans  &trans  &trans           &trans           &trans             &trans  &trans      &trans        &trans        &trans      &trans
