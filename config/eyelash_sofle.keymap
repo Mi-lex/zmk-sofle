@@ -211,7 +211,8 @@
         Hash {
             bindings = <&kp HASH>;
             key-positions = <16 17>;
-            require-prior-idle-ms = <200>;
+            require-prior-idle-ms = <250>;
+            slow-release;
         };
 
         Dollar {
