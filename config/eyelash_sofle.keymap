@@ -5,6 +5,7 @@
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/backlight.h>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
@@ -320,11 +321,11 @@
 
         System {
             bindings = <
-&bl BL_TOG  &trans  &trans  &trans           &rgb_ug RGB_BRI  &trans             &trans  &trans      &trans        &trans        &trans      &trans  &kp C_SLEEP_MODE
-&trans      &trans  &trans  &rgb_ug RGB_EFR  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF    &trans  &trans      &trans        &trans        &trans      &trans  &kp C_POWER
-&trans      &trans  &trans  &trans           &rgb_ug RGB_BRD  &trans             &trans  &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &trans  &trans
-&trans      &trans  &trans  &trans           &trans           &trans             &trans  &trans      &trans        &trans        &trans      &trans  &trans
-&trans      &trans  &trans  &trans           &trans           &trans             &trans  &trans      &trans        &trans        &trans      &trans
+&bl BL_TOG  &bt BT_SEL 0  &bt BT_SEL 1  &trans           &rgb_ug RGB_BRI  &trans             &trans  &trans      &trans        &trans        &trans      &trans  &kp C_SLEEP_MODE
+&trans      &trans        &trans        &rgb_ug RGB_EFR  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF    &trans  &trans      &trans        &trans        &trans      &trans  &kp C_POWER
+&trans      &trans        &trans        &trans           &rgb_ug RGB_BRD  &trans             &trans  &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &trans  &trans
+&trans      &trans        &trans        &trans           &trans           &trans             &trans  &trans      &trans        &trans        &trans      &trans  &trans
+&trans      &trans        &trans        &trans           &trans           &trans             &trans  &trans      &trans        &trans        &trans      &trans
             >;
 
             display-name = "layer3";
