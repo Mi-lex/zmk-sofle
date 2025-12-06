@@ -285,7 +285,7 @@
 &kp TAB          &kp Q   &kp W                   &kp E                  &kp R                &kp T          &mmv MOVE_DOWN   &kp Y        &AmpersandOnDouble  &kp I                   &kp O                    &kp P              &trans
 &kp LEFT_SHIFT   &kp A   &HMShiftL LEFT_SHIFT S  &HMOptionL LEFT_ALT D  &kp F                &kp G          &mmv MOVE_LEFT   &kp H        &kp J               &HMOptionR RIGHT_ALT K  &HMShiftR RIGHT_SHIFT L  &kp SEMI           &kp APOS
 &mt LCTRL GRAVE  &kp Z   &kp X                   &kp C                  &kp V                &kp B          &mmv MOVE_RIGHT  &kp N        &kp M               &kp COMMA               &kp DOT                  &kp FSLH           &kp BACKSLASH
-&kp C_MUTE       &mo 3   &trans                  &lt 4 ESCAPE           &mt LEFT_GUI ESCAPE  &lt 1 SPACE    &mkp LCLK        &lt 2 SPACE  &kp RIGHT_GUI       &trans                  &kp LEFT_BRACKET         &kp RIGHT_BRACKET
+&kp C_MUTE       &mo 3   &kp ENTER               &lt 4 ENTER            &mt LEFT_GUI ESCAPE  &lt 1 SPACE    &mkp LCLK        &lt 2 SPACE  &kp RIGHT_GUI       &kp BACKSPACE           &kp LEFT_BRACKET         &kp RIGHT_BRACKET
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -294,11 +294,11 @@
 
         Navigation {
             bindings = <
-&trans  &trans             &trans           &trans  &trans  &kp LS(LG(NUMBER_7))    &msc SCRL_UP     &trans      &trans          &trans        &trans                    &trans            &trans
-&trans  &trans             &trans           &trans  &trans  &trans                  &msc SCRL_DOWN   &kp K_COPY  &kp K_UNDO      &kp INSERT    &kp K_BACK                &kp K_PASTE       &trans
-&trans  &trans             &trans           &trans  &trans  &VimNormalG             &msc SCRL_LEFT   &kp LEFT    &kp DOWN        &kp UP_ARROW  &kp RIGHT                 &trans            &trans
-&trans  &kp K_SCROLL_DOWN  &kp K_CUT        &trans  &trans  &mkp MB4                &msc SCRL_RIGHT  &kp HOME    &msc SCRL_DOWN  &msc SCRL_UP  &kp END                   &trans            &trans
-&trans  &kp LEFT_ARROW     &kp RIGHT_ARROW  &trans  &trans  &trans                  &mkp RCLK        &kp SPACE   &trans          &trans        &kp LS(LG(LEFT_BRACKET))  &kp RS(RG(RBKT))
+&trans  &trans             &trans             &trans      &trans  &kp LS(LG(NUMBER_7))    &msc SCRL_UP     &trans     &trans          &trans        &trans                    &trans            &trans
+&trans  &trans             &kp LC(BACKSPACE)  &kp DELETE  &trans  &trans                  &msc SCRL_DOWN   &kp LA(C)  &kp LA(Z)       &kp INSERT    &kp K_BACK                &kp K_PASTE       &trans
+&trans  &trans             &trans             &trans      &trans  &VimNormalG             &msc SCRL_LEFT   &kp LEFT   &kp DOWN        &kp UP_ARROW  &kp RIGHT                 &trans            &trans
+&trans  &kp K_SCROLL_DOWN  &kp K_CUT          &trans      &trans  &mkp MB4                &msc SCRL_RIGHT  &kp HOME   &msc SCRL_DOWN  &msc SCRL_UP  &kp END                   &trans            &trans
+&trans  &kp LEFT_ARROW     &kp RIGHT_ARROW    &trans      &trans  &trans                  &mkp RCLK        &trans     &trans          &trans        &kp LS(LG(LEFT_BRACKET))  &kp RS(RG(RBKT))
             >;
 
             display-name = "layer2";
