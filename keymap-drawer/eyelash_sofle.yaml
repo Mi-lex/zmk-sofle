@@ -81,13 +81,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  - {t: 'Alt+$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-down$$
-  - Alt+C
-  - Alt+Z
+  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - Ins
   - BACK
   - PASTE
@@ -126,7 +126,7 @@ layers:
   - {type: held}
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RIGHT GUI
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: 'Sft+Gui+[', s: 'Sft+Gui+{'}
   - {t: 'Sft+Gui+]', s: 'Sft+Gui+}'}
