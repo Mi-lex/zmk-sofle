@@ -90,7 +90,7 @@ layers:
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - Ins
   - BACK
-  - PASTE
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
