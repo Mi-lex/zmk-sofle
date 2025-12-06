@@ -243,7 +243,7 @@
         Navigation {
             bindings = <
 &trans  &trans             &trans             &trans      &trans  &kp LS(LG(NUMBER_7))    &msc SCRL_UP     &trans     &trans          &trans        &trans                    &trans            &trans
-&trans  &trans             &kp LA(BACKSPACE)  &kp DELETE  &trans  &trans                  &msc SCRL_DOWN   &kp LG(C)  &kp LG(Z)       &kp INSERT    &kp K_BACK                &kp K_PASTE       &trans
+&trans  &trans             &kp LA(BACKSPACE)  &kp DELETE  &trans  &trans                  &msc SCRL_DOWN   &kp LG(C)  &kp LG(Z)       &kp INSERT    &kp K_BACK                &kp LG(V)         &trans
 &trans  &trans             &trans             &trans      &trans  &VimNormalG             &msc SCRL_LEFT   &kp LEFT   &kp DOWN        &kp UP_ARROW  &kp RIGHT                 &trans            &trans
 &trans  &kp K_SCROLL_DOWN  &kp K_CUT          &trans      &trans  &mkp MB4                &msc SCRL_RIGHT  &kp HOME   &msc SCRL_DOWN  &msc SCRL_UP  &kp END                   &trans            &trans
 &trans  &kp LEFT_ARROW     &kp RIGHT_ARROW    &trans      &trans  &trans                  &mkp RCLK        &trans     &kp RIGHT_GUI   &trans        &kp LS(LG(LEFT_BRACKET))  &kp RS(RG(RBKT))
