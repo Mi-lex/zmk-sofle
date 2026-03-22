@@ -27,6 +27,15 @@
         zmk,backlight = &backlight;
     };
 
+    /* Enable DC/DC regulators */
+    &reg0 {
+        status = "okay";
+    };
+
+    &reg1 {
+        regulator-initial-mode = <NRF5X_REG_MODE_DCDC>;
+    };
+
 	left_encoder: encoder_left {
 		compatible = "alps,ec11";
 		label = "LEFT_ENCODER";

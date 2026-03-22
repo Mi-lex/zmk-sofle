@@ -3,6 +3,8 @@ name: Eyelash Sofle
 url: https://github.com/a741725193/zmk-sofle
 type: mcu
 arch: arm
+revision: "0.1.0"
+soc: nrf52840_qiaa
 toolchain:
   - zephyr
   - gnuarmemb
