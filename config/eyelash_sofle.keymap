@@ -69,11 +69,11 @@
         bindings = <&kp>, <&kp>;
 
         #binding-cells = <2>;
-        tapping-term-ms = <280>;
+        tapping-term-ms = <350>;
         hold-trigger-key-positions = <7 8 9 10 11 12 20 21 22 23 24 25 33 34 35 36 37 38 46 47 48 49 50 51 60 61 62 63 59 6 19 32 45 58 57 39>;
         flavor = "balanced";
         quick-tap-ms = <175>;
-        require-prior-idle-ms = <125>;
+        require-prior-idle-ms = <100>;
         hold-trigger-on-release;
     };
 
@@ -83,7 +83,7 @@
         bindings = <&kp>, <&kp>;
 
         #binding-cells = <2>;
-        tapping-term-ms = <280>;
+        tapping-term-ms = <350>;
         hold-trigger-key-positions = <0 1 2 3 4 5 18 17 16 15 14 13 26 27 28 29 30 42 43 54 55 44 31 41 53 40 39 56 57 52 60>;
         require-prior-idle-ms = <100>;
         quick-tap-ms = <175>;
@@ -220,10 +220,10 @@
 
         Base {
             bindings = <
-&trans           &kp N1  &kp N2                  &kp N3                 &kp N4               &kp N5         &mmv MOVE_UP     &kp N6       &kp N7              &kp N8                  &kp N9                   &kp N0             &kp BACKSLASH
-&kp TAB          &kp Q   &kp W                   &kp E                  &kp R                &kp T          &mmv MOVE_DOWN   &kp Y        &AmpersandOnDouble  &kp I                   &kp O                    &kp P              &kp BACKSPACE
-&kp LEFT_SHIFT   &kp A   &HMShiftL LEFT_SHIFT S  &HMOptionL LEFT_ALT D  &kp F                &kp G          &mmv MOVE_LEFT   &kp H        &kp J               &HMOptionR RIGHT_ALT K  &HMShiftR RIGHT_SHIFT L  &kp SEMI           &kp APOS
-&mt LCTRL GRAVE  &kp Z   &kp X                   &kp C                  &kp V                &kp B          &mmv MOVE_RIGHT  &kp N        &kp M               &kp COMMA               &kp DOT                  &kp FSLH           &kp RIGHT_SHIFT
+&trans           &kp N1  &kp N2                  &kp N3                 &kp N4               &kp N5         &msc SCRL_UP     &kp N6       &kp N7              &kp N8                  &kp N9                   &kp N0             &kp BACKSLASH
+&kp TAB          &kp Q   &kp W                   &kp E                  &kp R                &kp T          &msc SCRL_DOWN   &kp Y        &AmpersandOnDouble  &kp I                   &kp O                    &kp P              &kp BACKSPACE
+&kp LEFT_SHIFT   &kp A   &HMShiftL LEFT_SHIFT S  &HMOptionL LEFT_ALT D  &kp F                &kp G          &msc SCRL_LEFT   &kp H        &kp J               &HMOptionR RIGHT_ALT K  &HMShiftR RIGHT_SHIFT L  &kp SEMI           &kp APOS
+&mt LCTRL GRAVE  &kp Z   &kp X                   &kp C                  &kp V                &kp B          &msc SCRL_RIGHT  &kp N        &kp M               &kp COMMA               &kp DOT                  &kp FSLH           &kp RIGHT_SHIFT
 &kp C_MUTE       &mo 3   &sk LS(LEFT_GUI)        &mo 4                  &mt LEFT_GUI ESCAPE  &lt 1 SPACE    &mkp LCLK        &lt 2 SPACE  &kp ENTER           &kp BACKSPACE           &kp LEFT_BRACKET         &kp RIGHT_BRACKET
             >;
 
