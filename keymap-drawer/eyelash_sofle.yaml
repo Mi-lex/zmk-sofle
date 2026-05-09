@@ -22,24 +22,24 @@ layers:
   - T
   - $$mdi:pan-down$$
   - Y
-  - '&AmpersandOnDouble'
+  - U
   - I
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
   - A
-  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
+  - S
   - {t: D, h: '$$mdi:apple-keyboard-option$$'}
   - F
   - G
   - $$mdi:pan-left$$
   - H
   - J
-  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
+  - K
+  - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: CONTEXT MENU, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '`', h: '$$mdi:apple-keyboard-control$$', s: '~'}
   - Z
   - X
@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: \, s: '|'}
   - $$mdi:volume-off$$
   - layer3
   - {t: 'Sft+$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
@@ -88,12 +88,12 @@ layers:
   - $$mdi:pan-down$$
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
-  - Ins
+  - Gui+$$mdi:arrow-right-bold$$
   - BACK
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+$$mdi:arrow-left-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
