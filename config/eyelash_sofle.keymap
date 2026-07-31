@@ -202,7 +202,7 @@
         };
 
         StickyNav {
-            bindings = <&sk LC(RIGHT_ALT)>;
+            bindings = <&sk LC(RIGHT_COMMAND)>;
             key-positions = <27 31>;
             layers = <0 4>;
             require-prior-idle-ms = <125>;
